@@ -1,0 +1,69 @@
+ASBURY AUTOMOTIVE GROUP (ABG) FIVE-YEAR PRO-FORMA CASE
+USD millions except per-share data; shares in millions
+Opening revolver = 0.0 (model initialization; not explicitly listed by the lab)
+
+INCOME STATEMENT
+--------------------------------------------------------------------------------------------
+Line item                            FY2026E     FY2027E     FY2028E     FY2029E     FY2030E
+Revenue                             18,323.0    18,652.8    18,988.5    19,330.3    19,678.3
+Cost of sales                       15,198.9    15,472.5    15,751.0    16,034.5    16,323.1
+Gross profit                         3,124.1     3,180.3     3,237.5     3,295.8     3,355.1
+SG&A                                 2,077.5     2,083.1     2,088.2     2,125.8     2,164.1
+Depreciation                            82.4        86.9        91.3        95.5        99.7
+Noncash impairment                     120.0       120.0       120.0       120.0       120.0
+Operating income                       844.2       890.3       938.1       954.5       971.4
+Floor plan interest                     94.7        96.4        98.1        99.9       101.7
+Term debt interest                     194.3       186.2       178.0       169.8       161.7
+Revolver interest                        0.0         0.0         0.0         0.0         0.0
+Total interest                         289.0       282.5       276.1       269.7       263.4
+Pretax income                          555.2       607.8       661.9       684.8       708.0
+Tax                                    141.6       155.0       168.8       174.6       180.5
+Net income                             413.6       452.8       493.1       510.1       527.5
+
+BALANCE SHEET
+--------------------------------------------------------------------------------------------
+Line item                            FY2026E     FY2027E     FY2028E     FY2029E     FY2030E
+Cash                                   101.8       206.9       356.6       527.5       719.8
+Inventory                            2,174.7     2,213.8     2,253.7     2,294.2     2,335.5
+PP&E                                 3,238.0     3,401.1     3,559.8     3,714.3     3,864.6
+Other assets                         6,254.2     6,136.8     6,019.5     5,902.3     5,785.0
+Floor plan                           2,063.9     2,101.0     2,138.9     2,177.4     2,216.5
+Term debt                            3,422.0     3,272.0     3,122.0     2,972.0     2,822.0
+Revolver                                 0.0         0.0         0.0         0.0         0.0
+Other liabilities                    2,127.5     2,127.5     2,127.5     2,127.5     2,127.5
+Equity                               4,155.3     4,458.1     4,801.2     5,161.4     5,538.9
+
+CASH FLOW STATEMENT
+--------------------------------------------------------------------------------------------
+Line item                            FY2026E     FY2027E     FY2028E     FY2029E     FY2030E
+Operating cash flow                    611.4       655.1       699.7       720.9       742.3
+Investing cash flow                   -250.0      -250.0      -250.0      -250.0      -250.0
+Financing cash flow                   -300.0      -300.0      -300.0      -300.0      -300.0
+Change in cash                          61.4       105.1       149.7       170.9       192.3
+Opening cash                            40.4       101.8       206.9       356.6       527.5
+Ending cash                            101.8       206.9       356.6       527.5       719.8
+FCFE before revolver/buyback           211.4       255.1       299.7       320.9       342.3
+Revolver movement                        0.0         0.0         0.0         0.0         0.0
+Share buyback                         -150.0      -150.0      -150.0      -150.0      -150.0
+
+REQUIRED CHECKS
+----------------------------------------------------
+FY2026E: balance-sheet gap = 0.0; cash minimum = PASS (101.8 >= 25.0)
+FY2027E: balance-sheet gap = 0.0; cash minimum = PASS (206.9 >= 25.0)
+FY2028E: balance-sheet gap = 0.0; cash minimum = PASS (356.6 >= 25.0)
+FY2029E: balance-sheet gap = 0.0; cash minimum = PASS (527.5 >= 25.0)
+FY2030E: balance-sheet gap = 0.0; cash minimum = PASS (719.8 >= 25.0)
+
+VALUATION
+----------------------------------------------------
+PV of forecast FCFE:     $1,059.87
+Terminal value:          $6,727.85
+PV of terminal value:    $4,177.46
+Equity value:            $5,237.34
+Terminal value share:     79.76%
+Value per share:         $291.75
+
+INTENTIONAL FAILURE TEST
+----------------------------------------------------
+Set FY2026E cash to 40.4 on a separate copy.
+Valuation stopped: FY2026E balance-sheet check failed: gap = -61.4
